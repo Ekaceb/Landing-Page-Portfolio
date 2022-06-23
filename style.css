@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    }
+
+body{
+    background-color: #f9bc60;
+    font-family: 'Bona Nova', serif;
+}
+
+img{
+    width:"300px" 
+    height="300px"
+}
+
+
+nav{
+    background-color: #1d3557;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    }
+
+ul{
+    color: #eebbc3;
+    list-style: none;
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+    list-style: none;
+    margin: 0 15px;
+   
+}
+
+.logo{
+    border-radius: 90%;
+    border-left: 40%;
+    padding: 10%;
+    margin-left: 5%;
+}
